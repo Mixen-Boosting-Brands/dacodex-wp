@@ -13,7 +13,7 @@ get_header(); ?>
     >
         <ul class="list-inline mb-0">
             <li class="list-inline-item">
-                <a href="https://wa.link/byytp0" target="_blank"">
+                <a href="https://wa.link/byytp0" target="_blank">
                     <i class="fa-brands fa-whatsapp"></i> +52 (614)
                     247-6164
                 </a>
