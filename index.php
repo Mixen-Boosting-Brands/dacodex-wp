@@ -69,13 +69,13 @@
                     data-aos-delay="400"
                 >
                     <li class="list-inline-item">
-                        <a href="#" class="btn btn-primary">
+                        <a href="#servicios" class="btn btn-primary">
                             Comienza hoy
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" class="btn btn-secondary">
+                        <a href="#caracteristicas" class="btn btn-secondary">
                             Conoce más
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -96,7 +96,7 @@
                             con 20 servicios incluidos en oficina
                             privada y cowork.
                         </p>
-                        <a href="#" class="btn btn-primary">
+                        <a href="#servicios" class="btn btn-primary">
                             Otros servicios
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -424,17 +424,23 @@
                     data-aos-delay="300"
                 >
                     <li class="mb-3">
-                        <a href="#" class="btn btn-primary" download>
+                        <a href="<?php echo esc_url(
+                            get_template_directory_uri()
+                        ); ?>/assets/pdfs/" class="btn btn-primary" download>
                             Descarga nuestro proceso de administración de oficinas <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="btn btn-primary" download>
+                        <a href="<?php echo esc_url(
+                            get_template_directory_uri()
+                        ); ?>/assets/pdfs/proceso-administracion-dacodex-nuevo-logo.pdf" class="btn btn-primary" download>
                             Descarga nuestro proceso de contratos de operación <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
                     <li class="mb-3">
-                        <a href="#" class="btn btn-secondary" download>
+                        <a href="<?php echo esc_url(
+                            get_template_directory_uri()
+                        ); ?>/assets/pdfs/Servicios-DACODEX-Consulting.pdf" class="btn btn-secondary" download>
                             Descarga nuestros servicios de consultoría <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
