@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     },
                     slidesPerView: 1,
                     spaceBetween: 30,
-                    loop: false, // Desactivamos el loop
+                    loop: false,
                     grabCursor: true,
                 });
 
@@ -71,6 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             `;
             modalContent.innerHTML = mapContainer;
+        } else if (contentType === "text") {
+            const textContent = button.getAttribute("data-text-content");
+            const textContainer = `
+                <div class="text-container">
+                    ${textContent}
+                </div>
+            `;
+            modalContent.innerHTML = textContainer;
         }
     });
 
