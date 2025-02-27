@@ -168,12 +168,37 @@ get_header(); ?>
                     data-aos-delay="500"
                 >
                     <li class="list-inline-item mb-3 mb-xl-0">
-                        <a href="#" class="btn btn-secondary btn-lg">
+                        <a href="javascript:void(0)" class="btn btn-secondary btn-lg"
+                           data-bs-toggle="modal"
+                           data-bs-target="#dynamicModal"
+                           data-content-type="text"
+                           data-text-content="<h4>Requisitos Persona Física</h4>
+                                             <ul>
+                                                 <li>Identificación oficial.</li>
+                                                 <li>Comprobante de domicilio.</li>
+                                                 <li>Constancia Situación Fiscal.</li>
+                                                 <li>Carátula bancaria (sin cantidades).</li>
+                                                 <li>Depósito de renta.</li>
+                                                 <li>Depósito de garantía de un mes de renta.</li>
+                                             </ul>">
                             Requisitos de contratación Persona Física <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
                     <li class="list-inline-item mb-3 mb-xl-0">
-                        <a href="#" class="btn btn-primary btn-lg">
+                        <a href="javascript:void(0)" class="btn btn-primary btn-lg"
+                           data-bs-toggle="modal"
+                           data-bs-target="#dynamicModal"
+                           data-content-type="text"
+                           data-text-content="<h4>Requisitos Persona Moral</h4>
+                                             <ul>
+                                                 <li>Acta constitutiva (si el contratante es persona moral).</li>
+                                                 <li>Poderes del representante legal (si el contratante es persona moral).</li>
+                                                 <li>Constancia Situación Fiscal.</li>
+                                                 <li>Identificación oficial.</li>
+                                                 <li>Comprobante de domicilio.</li>
+                                                 <li>Carátula bancaria (sin cantidades).</li>
+                                                 <li>Depósito de garantía de un mes de renta.</li>
+                                             </ul>">
                             Requisitos de contratación Persona Moral <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
