@@ -1,0 +1,158 @@
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+    header {
+        margin-top: 80px;
+    }
+
+    .boton-flecha-arriba-izquierda-la,
+    .boton-flecha-arriba-derecha-la,
+    .boton-flecha-arriba-izquierda-ra,
+    .boton-flecha-arriba-derecha-ra,
+    .boton-flecha-abajo-izquierda-la,
+    .boton-flecha-abajo-derecha-la,
+    .boton-flecha-abajo-izquierda-ra,
+    .boton-flecha-abajo-derecha-ra {
+        &::before,
+        &::after {
+            display: block;
+        }
+    }
+
+    .contenedor-boton-izquierda-la,
+    .contenedor-boton-izquierda-ra,
+    .contenedor-boton-derecha-la,
+    .contenedor-boton-derecha-ra {
+        &::before {
+            display: block;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+    #jumbotron {
+        .top-bar {
+            @include font-size(1.2rem);
+
+            .list-inline-item {
+                @include transition(ease, 0.3s);
+            }
+
+            .list-inline-item:not(:last-child) {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+
+    .jumbotron-interna {
+        height: 60vh !important;
+        text-align: center;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    header {
+        .list-inline-item:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    #jumbotron {
+        .top-bar {
+            .list-inline-item:not(:last-child) {
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    .cards {
+        .card {
+            min-height: 674px;
+
+            .btn {
+                position: absolute;
+                bottom: 48px;
+                left: 40px;
+            }
+        }
+    }
+
+    .descanso-2 {
+        .contenedor-boton-flecha {
+            width: fit-content;
+        }
+    }
+
+    .boton-flecha-arriba-izquierda-la,
+    .boton-flecha-arriba-derecha-la,
+    .boton-flecha-arriba-izquierda-ra,
+    .boton-flecha-arriba-derecha-ra,
+    .boton-flecha-abajo-izquierda-la,
+    .boton-flecha-abajo-derecha-la,
+    .boton-flecha-abajo-izquierda-ra,
+    .boton-flecha-abajo-derecha-ra {
+        &::before,
+        &::after {
+            display: none !important;
+        }
+    }
+
+    .contenedor-boton-izquierda-la,
+    .contenedor-boton-izquierda-ra,
+    .contenedor-boton-derecha-la,
+    .contenedor-boton-derecha-ra {
+        &::before {
+            display: none !important;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+    header {
+        .list-inline-item:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+
+    .cards {
+        .card {
+            min-height: 638px;
+        }
+    }
+
+    .boton-flecha-arriba-izquierda-la,
+    .boton-flecha-arriba-derecha-la,
+    .boton-flecha-arriba-izquierda-ra,
+    .boton-flecha-arriba-derecha-ra,
+    .boton-flecha-abajo-izquierda-la,
+    .boton-flecha-abajo-derecha-la,
+    .boton-flecha-abajo-izquierda-ra,
+    .boton-flecha-abajo-derecha-ra {
+        &::before,
+        &::after {
+            display: flex !important;
+        }
+    }
+
+    .contenedor-boton-izquierda-la,
+    .contenedor-boton-izquierda-ra,
+    .contenedor-boton-derecha-la,
+    .contenedor-boton-derecha-ra {
+        &::before {
+            display: flex !important;
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+    .cards {
+        .card {
+            min-height: 574px;
+        }
+    }
+}

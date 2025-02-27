@@ -1,0 +1,21 @@
+.faqs {
+    #jumbotron {
+        @include background("../images/faqs/bg-jumbotron.png", center, cover);
+    }
+
+    .accordion {
+        .accordion-item {
+            background-color: transparent;
+
+            .accordion-button {
+                background-color: inherit;
+                color: $primary;
+                @include font-size(1.6rem);
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

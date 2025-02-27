@@ -1,0 +1,9 @@
+.privacidad {
+    #jumbotron {
+        @include background(
+            "../images/privacidad/bg-jumbotron.png",
+            center,
+            cover
+        );
+    }
+}

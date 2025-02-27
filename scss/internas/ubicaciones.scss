@@ -1,0 +1,113 @@
+.ubicaciones {
+    #jumbotron {
+        @include background(
+            "../images/ubicaciones/bg-jumbotron.png",
+            center,
+            cover
+        );
+    }
+
+    #ubicaciones {
+        .card {
+            min-height: auto;
+
+            .card-body {
+                position: relative;
+
+                a {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    z-index: 1;
+
+                    span {
+                        display: none;
+                    }
+                }
+            }
+
+            .btn {
+                position: relative;
+                top: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            .btn-primary-hover {
+                background-color: darken($primary, 7.5%);
+                border-color: darken($primary, 10%);
+            }
+        }
+
+        .btn-galeria {
+            border-radius: 2.7rem;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+
+            .overlay {
+                background: rgba(0, 0, 0, 0.3) !important;
+                border-radius: 2.7rem;
+                color: $white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 1;
+                @include transition(ease, 0.3s);
+            }
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+
+    #aperturas {
+        .contenedor-apertura {
+            cursor: pointer;
+            position: relative;
+
+            .btn {
+                position: absolute;
+                bottom: 30px;
+                @include absolute-center-x;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    .ubicaciones {
+        #ubicaciones {
+            .btn-galeria {
+                .overlay {
+                    opacity: 0;
+                }
+
+                &:hover {
+                    .overlay {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+}
+
+// XX-Large devices (large desktops, 1400px and up)
+@include media-breakpoint-up(xxl) {
+}

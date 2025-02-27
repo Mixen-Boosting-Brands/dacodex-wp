@@ -1,0 +1,9 @@
+.nuestros-servicios {
+    #jumbotron {
+        @include background(
+            "../images/nuestros-servicios/bg-jumbotron.png",
+            center,
+            cover
+        );
+    }
+}
