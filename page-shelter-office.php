@@ -39,7 +39,7 @@ get_header(); ?>
             <div class="col-12 my-auto">
                 <h1 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="100">Shelter Office<br>Space Agreement</h1>
+                data-aos-delay="100"><?php the_title(); ?><br>Space Agreement</h1>
             </div>
         </div>
     </div>
