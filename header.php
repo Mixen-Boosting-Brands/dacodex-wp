@@ -57,10 +57,24 @@
         case 3:
             $extra_class = "privacidad";
             break;
-        // Aquí puedes ir agregando más casos
-        // case 4:
-        //     $extra_class = 'otra-clase';
-        //     break;
+        case 7:
+            $extra_class = "nuestra-historia";
+            break;
+        case 9:
+            $extra_class = "nuestros-servicios";
+            break;
+        case 11:
+            $extra_class = "ubicaciones";
+            break;
+        case 13:
+            $extra_class = "faqs";
+            break;
+        case 15:
+            $extra_class = "shelter-office";
+            break;
+        case 18:
+            $extra_class = "contacto";
+            break;
     }
 
     body_class($extra_class);
@@ -91,23 +105,35 @@
                             ); ?>">Inicio</a>
                         </li>
                         <li>
-                            <a class="anchor" id="btn-nav-2" href="#">Empresa</a>
+                            <a id="btn-nav-2" href="<?php echo get_permalink(
+                                7
+                            ); ?>">Empresa</a>
                         </li>
                         <li>
-                            <a class="anchor" id="btn-nav-3" href="#">Ubicaciones</a>
+                            <a id="btn-nav-3" href="<?php echo get_permalink(
+                                11
+                            ); ?>">Ubicaciones</a>
                         </li>
                         <li>
-                            <a class="anchor" id="btn-nav-4" href="#">Servicios</a>
+                            <a id="btn-nav-4" href="<?php echo get_permalink(
+                                9
+                            ); ?>">Servicios</a>
                         </li>
                         <li>
-                            <a class="anchor" id="btn-nav-5" href="#">Preguntas</a>
+                            <a id="btn-nav-5" href="<?php echo get_permalink(
+                                13
+                            ); ?>">Preguntas</a>
                         </li>
                         <li>
-                            <a class="anchor" id="btn-nav-6" href="#">Shelter Office</a>
+                            <a id="btn-nav-6" href="<?php echo get_permalink(
+                                15
+                            ); ?>">Shelter Office</a>
                         </li>
                     </ul>
                 </nav>
-                <a href="#contacto" class="anchor btn btn-primary" id="btn-contacto"
+                <a href="<?php echo get_permalink(
+                    18
+                ); ?>" class="btn btn-primary" id="btn-contacto"
                     >Contáctanos</a
                 >
                 <div id="contacto-menu">
@@ -167,22 +193,34 @@
                                     ); ?>">Inicio</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Empresa</a>
+                                    <a href="<?php echo get_permalink(
+                                        7
+                                    ); ?>">Empresa</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Ubicaciones</a>
+                                    <a href="<?php echo get_permalink(
+                                        11
+                                    ); ?>">Ubicaciones</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Servicios</a>
+                                    <a href="<?php echo get_permalink(
+                                        9
+                                    ); ?>">Servicios</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Preguntas</a>
+                                    <a href="<?php echo get_permalink(
+                                        13
+                                    ); ?>">Preguntas</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Shelter Office</a>
+                                    <a href="<?php echo get_permalink(
+                                        15
+                                    ); ?>">Shelter Office</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#contacto">Contacto</a>
+                                    <a href="<?php echo get_permalink(
+                                        18
+                                    ); ?>">Contacto</a>
                                 </li>
                             </ul>
                         </nav>
