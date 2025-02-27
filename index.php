@@ -316,7 +316,7 @@
                     data-aos-delay="500"
                 >
                     <li class="list-inline-item mb-3 mb-xl-0">
-                        <a href="#" class="btn btn-secondary btn-lg"
+                        <a href="javascript:void(0)" class="btn btn-secondary btn-lg"
                            data-content-type="text"
                            data-text-content="<h4>Requisitos Persona Física</h4>
                                              <ul>
@@ -331,7 +331,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item mb-3 mb-xl-0">
-                        <a href="#" class="btn btn-primary btn-lg"
+                        <a href="javascript:void(0)" class="btn btn-primary btn-lg"
                            data-content-type="text"
                            data-text-content="<h4>Requisitos Persona Moral</h4>
                                              <ul>
