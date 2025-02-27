@@ -95,7 +95,9 @@ get_header(); ?>
                             <li>Acceso 24/7 con tarjeta de proximidad</li>
                             <li>Domicilio comercial y fiscal</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Desde $5,090.00 más IVA</a>
+                        <a href="<?php echo get_permalink(
+                            18
+                        ); ?>" class="btn btn-primary">Desde $5,090.00 más IVA</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +129,9 @@ get_header(); ?>
                             <li>Acceso 27/7 con tarjeta de proximidad</li>
                             <li>Domicilio comercial y fiscal</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Desde $2,090.00 más IVA</a>
+                        <a href="<?php echo get_permalink(
+                            18
+                        ); ?>" class="btn btn-primary">Desde $2,090.00 más IVA</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +159,9 @@ get_header(); ?>
                             <li>Recepción bilingüe</li>
                             <li>Línea telefónica compartida</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Desde $1,090.00 más IVA</a>
+                        <a href="<?php echo get_permalink(
+                            18
+                        ); ?>" class="btn btn-primary">Desde $1,090.00 más IVA</a>
                     </div>
                 </div>
             </div>
