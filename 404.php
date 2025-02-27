@@ -42,7 +42,7 @@
     </div>
 </section>
 
-<section class="descanso descanso-1 pt-60 pb-30">
+<section class="descanso descanso-1 py-60">
     <div class="container">
         <div class="row">
             <div
