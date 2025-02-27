@@ -48,7 +48,9 @@
                         >
                             <li class="mb-2">&copy; 2025 DACODEX Oficinas Amuebladas. Todos los derechos reservados.</li>
                             <li class="mb-2">
-                                <a href="#">Aviso de privacidad</a>
+                                <a href="<?php echo get_permalink(
+                                    3
+                                ); ?>">Aviso de privacidad</a>
                             </li>
                             <li class="mb-2">Hecho con <i class="fa-solid fa-heart" alt="amor"></i> por <a href="https://mixen.mx/" alt="Mixen" target="_blank">Mixen</a></li>
                         </ul>
@@ -172,7 +174,9 @@
  ); ?><br>
                                                 Todos los derechos reservados.</li>
                                             <li class="mb-2">
-                                                <a href="#">Aviso de privacidad</a>
+                                                <a href="<?php echo get_permalink(
+                                                    3
+                                                ); ?>">Aviso de privacidad</a>
                                             </li>
                                             <li class="mb-2">Hecho con <i class="fa-solid fa-heart" alt="amor"></i> por <a href="https://mixen.mx/" alt="Mixen" target="_blank">Mixen</a></li>
                                         </ul>
