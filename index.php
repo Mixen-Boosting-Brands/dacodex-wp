@@ -317,6 +317,8 @@
                 >
                     <li class="list-inline-item mb-3 mb-xl-0">
                         <a href="javascript:void(0)" class="btn btn-secondary btn-lg"
+                           data-bs-toggle="modal"
+                           data-bs-target="#dynamicModal"
                            data-content-type="text"
                            data-text-content="<h4>Requisitos Persona Física</h4>
                                              <ul>
@@ -332,6 +334,8 @@
                     </li>
                     <li class="list-inline-item mb-3 mb-xl-0">
                         <a href="javascript:void(0)" class="btn btn-primary btn-lg"
+                           data-bs-toggle="modal"
+                           data-bs-target="#dynamicModal"
                            data-content-type="text"
                            data-text-content="<h4>Requisitos Persona Moral</h4>
                                              <ul>
