@@ -25,18 +25,18 @@
                                 data-aos-delay="300"
                             >
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/" target="_blank" alt="Facebook">
+                                    <a href="https://www.facebook.com/dacodexoficinasamuebladas" target="_blank" alt="Facebook">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/" target="_blank" alt="LinkedIn">
-                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    <a href="https://www.instagram.com/dacodex_mx/" target="_blank" alt="Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/" target="_blank" alt="Instagram">
-                                        <i class="fa-brands fa-instagram"></i>
+                                    <a href="https://www.linkedin.com/company/87999139/admin/feed/posts/ target="_blank" alt="LinkedIn">
+                                        <i class="fa-brands fa-linkedin-in"></i>
                                     </a>
                                 </li>
                             </ul>
