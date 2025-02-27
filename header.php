@@ -49,7 +49,22 @@
 
         <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php
+    $page_id = get_queried_object_id();
+    $extra_class = "";
+
+    switch ($page_id) {
+        case 3:
+            $extra_class = "privacidad";
+            break;
+        // Aquí puedes ir agregando más casos
+        // case 4:
+        //     $extra_class = 'otra-clase';
+        //     break;
+    }
+
+    body_class($extra_class);
+    ?>>
         <div id="backdrop"></div>
         <div class="menu">
             <a id="cerrar-menu" href="javascript:void(0)">
