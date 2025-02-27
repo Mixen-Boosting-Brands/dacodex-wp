@@ -1,71 +1,62 @@
+
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-	<!-- section -->
-	<section>
+<section id="jumbotron" class="bg-dark jumbotron-interna">
+    <div
+        class="top-bar"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        data-aos-delay="0"
+    >
+        <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+                <a href="https://wa.link/byytp0" target="_blank"">
+                    <i class="fa-brands fa-whatsapp"></i> +52 (614)
+                    247-6164
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="tel:+526144789000">
+                    <i class="fa-solid fa-phone"></i> +52 (614) 478-9000
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="mailto:ventas@dacodex.mx">
+                    <i class="fa-solid fa-envelope"></i>
+                    ventas@dacodex.mx
+                </a>
+            </li>
+        </ul>
+    </div>
 
-	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
+    <div class="overlay"></div>
 
-		<!-- article -->
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-auto">
+                <h2 data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"><?php the_title(); ?></h2>
+            </div>
+        </div>
+    </div>
+</section>
 
-			<!-- post thumbnail -->
-			<?php if ( has_post_thumbnail() ) : // Check if Thumbnail exists. ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-					<?php the_post_thumbnail(); // Fullsize image for the single post. ?>
-				</a>
-			<?php endif; ?>
-			<!-- /post thumbnail -->
+<section class="descanso descanso-1 pt-60 pb-30">
+    <div class="container">
+        <div class="row">
+            <div
+                class="col-12"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+            >
+                <?php the_content(); ?>
 
-			<!-- post title -->
-			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-			</h1>
-			<!-- /post title -->
-
-			<!-- post details -->
-			<span class="date">
-				<time datetime="<?php the_time( 'Y-m-d' ); ?> <?php the_time( 'H:i' ); ?>">
-					<?php the_date(); ?> <?php the_time(); ?>
-				</time>
-			</span>
-			<span class="author"><?php esc_html_e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' ) ); ?></span>
-			<!-- /post details -->
-
-			<?php the_content(); // Dynamic Content. ?>
-
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
-
-			<p><?php esc_html_e( 'Categorised in: ', 'html5blank' ); the_category( ', ' ); // Separated by commas. ?></p>
-
-			<p><?php esc_html_e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
-
-			<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
-
-			<?php comments_template(); ?>
-
-		</article>
-		<!-- /article -->
-
-	<?php endwhile; ?>
-
-	<?php else : ?>
-
-		<!-- article -->
-		<article>
-
-			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
-
-		</article>
-		<!-- /article -->
-
-	<?php endif; ?>
-
-	</section>
-	<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
+				<?php edit_post_link(); ?>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>

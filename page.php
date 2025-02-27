@@ -1,45 +1,62 @@
+
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+<section id="jumbotron" class="bg-dark jumbotron-interna">
+    <div
+        class="top-bar"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        data-aos-delay="0"
+    >
+        <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+                <a href="https://wa.link/byytp0" target="_blank"">
+                    <i class="fa-brands fa-whatsapp"></i> +52 (614)
+                    247-6164
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="tel:+526144789000">
+                    <i class="fa-solid fa-phone"></i> +52 (614) 478-9000
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="mailto:ventas@dacodex.mx">
+                    <i class="fa-solid fa-envelope"></i>
+                    ventas@dacodex.mx
+                </a>
+            </li>
+        </ul>
+    </div>
 
-			<h1><?php the_title(); ?></h1>
+    <div class="overlay"></div>
 
-		<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-auto">
+                <h2 data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"><?php the_title(); ?></h2>
+            </div>
+        </div>
+    </div>
+</section>
 
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-				<?php the_content(); ?>
-
-				<?php comments_template( '', true ); // Remove if you don't want comments. ?>
-
-				<br class="clear">
+<section class="descanso descanso-1 pt-60 pb-30">
+    <div class="container">
+        <div class="row">
+            <div
+                class="col-12"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+            >
+                <?php the_content(); ?>
 
 				<?php edit_post_link(); ?>
-
-			</article>
-			<!-- /article -->
-
-		<?php endwhile; ?>
-
-		<?php else : ?>
-
-			<!-- article -->
-			<article>
-
-				<h2><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
-
-			</article>
-			<!-- /article -->
-
-		<?php endif; ?>
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>

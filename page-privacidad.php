@@ -39,7 +39,7 @@ get_header(); ?>
             <div class="col-12 my-auto">
                 <h2 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="100">Aviso de Privacidad</h2>
+                data-aos-delay="100"><?php the_title(); ?></h2>
             </div>
         </div>
     </div>
