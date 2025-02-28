@@ -37,7 +37,7 @@ if (isset($_POST["nombre"]) && isset($_POST["correo"])) {
     try {
         //Recipients
         $mail->setFrom("noreply@dacodex.mx", "Dacodex"); // Actualizar con tu dominio y nombre
-        $mail->addAddress("luis.pando@mixen.mx"); // Actualizar con el email de destino
+        $mail->addAddress("ventas@dacodex.mx"); // Actualizar con el email de destino
         $mail->addReplyTo($correo, $nombre);
 
         //Content
