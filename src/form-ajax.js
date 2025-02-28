@@ -42,25 +42,17 @@ window.addEventListener(
                             // Remover validación visual
                             $(form).removeClass("was-validated");
 
-                            // Actualizar clases del mensaje
+                            // Actualizar clase del mensaje
                             $(formMessages).removeClass("error");
-                            $(formMessages).addClass(
-                                "success alert alert-success"
-                            );
+                            $(formMessages).addClass("success");
 
                             // Mostrar mensaje de éxito
-                            $(formMessages).html(
-                                '<div class="alert alert-success">' +
-                                    response +
-                                    "</div>"
-                            );
+                            $(formMessages).html(response);
 
                             // Limpiar el formulario y eliminar el mensaje después de 5 segundos
                             setTimeout(function () {
                                 $(formMessages).html(""); // Limpia el contenido
-                                $(formMessages).removeClass(
-                                    "success alert alert-success"
-                                ); // Remueve las clases
+                                $(formMessages).removeClass("success"); // Remueve la clase
                                 form.reset(); // Resetea el formulario
                             }, 5000);
                         },
@@ -68,28 +60,20 @@ window.addEventListener(
                             // Remover indicador de carga
                             $("#hold-on-a-sec").removeClass("is-loading");
 
-                            // Actualizar clases del mensaje
+                            // Actualizar clase del mensaje
                             $(formMessages).removeClass("success");
-                            $(formMessages).addClass(
-                                "error alert alert-danger"
-                            );
+                            $(formMessages).addClass("error");
 
                             // Mostrar mensaje de error
                             let errorMessage =
                                 xhr.responseText ||
                                 "Ocurrió un error al enviar el mensaje. Por favor, intenta nuevamente.";
-                            $(formMessages).html(
-                                '<div class="alert alert-danger">' +
-                                    errorMessage +
-                                    "</div>"
-                            );
+                            $(formMessages).html(errorMessage);
 
                             // Limpiar el mensaje de error y sus clases después de 5 segundos
                             setTimeout(function () {
                                 $(formMessages).html(""); // Limpia el contenido
-                                $(formMessages).removeClass(
-                                    "error alert alert-danger"
-                                ); // Remueve las clases
+                                $(formMessages).removeClass("error"); // Remueve la clase
                             }, 5000);
                         },
                         complete: function () {
