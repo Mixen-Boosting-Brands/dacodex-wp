@@ -126,7 +126,7 @@ get_header(); ?>
                             <li>Servicio de limpieza*</li>
                             <li>Internet simétrico de alta velocidad*</li>
                             <li>Áreas comunes (baños, cocina, sala de espera)</li>
-                            <li>Acceso 27/7 con tarjeta de proximidad</li>
+                            <li>Acceso 24/7 con tarjeta de proximidad</li>
                             <li>Domicilio comercial y fiscal</li>
                         </ul>
                         <a href="<?php echo get_permalink(
