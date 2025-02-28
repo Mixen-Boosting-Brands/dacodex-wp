@@ -460,7 +460,7 @@
                     <li class="mb-3">
                         <a href="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/pdfs/" class="btn btn-primary" download>
+                        ); ?>/assets/pdfs/proceso-administracion-dacodex-nuevo-logo.pdf" class="btn btn-primary" download>
                             Descarga nuestro proceso de administración de oficinas <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
