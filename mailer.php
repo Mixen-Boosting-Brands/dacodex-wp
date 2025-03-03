@@ -16,10 +16,10 @@ $mail->CharSet = "UTF-8";
 
 //Server settings
 $mail->isSMTP();
-$mail->Host = "mail.dacodex.mx";
+$mail->Host = "smtp.zoho.com";
 $mail->SMTPAuth = true;
 $mail->Username = "noreply@dacodex.mx"; // Actualizar con tu email
-$mail->Password = "{+f?nr[1X^ag"; // Actualizar con tu contraseña
+$mail->Password = "Dacodex#1"; // Actualizar con tu contraseña
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
