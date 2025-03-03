@@ -14,6 +14,10 @@ require "./PHPMailer/Exception.php";
 $mail = new PHPMailer(true);
 $mail->CharSet = "UTF-8";
 
+// Activar debugging
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->Debugoutput = "html";
+
 //Server settings
 $mail->isSMTP();
 $mail->Host = "mail.dacodex.mx";
