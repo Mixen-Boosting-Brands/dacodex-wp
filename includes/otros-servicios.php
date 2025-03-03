@@ -21,14 +21,14 @@
                     <li class="mb-3">
                         <a href="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/pdfs/proceso-administracion-dacodex-nuevo-logo.pdf" class="btn btn-primary" download>
+                        ); ?>/assets/pdfs/Proceso-de-Administracion-de-Oficinas-DACODEX.pdf" class="btn btn-primary" download>
                             Descarga nuestro proceso de administración de oficinas <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>
                     <li class="mb-3">
                         <a href="<?php echo esc_url(
                             get_template_directory_uri()
-                        ); ?>/assets/pdfs/proceso-administracion-dacodex-nuevo-logo.pdf" class="btn btn-primary" download>
+                        ); ?>/assets/pdfs/Proceso-de-Operacion-de-Centros-de-Negocios-DACODEX.pdf" class="btn btn-primary" download>
                             Descarga nuestro proceso de contratos de operación <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </li>

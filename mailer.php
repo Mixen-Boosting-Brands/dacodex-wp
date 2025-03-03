@@ -24,8 +24,8 @@ $mail->Host = "mail.dacodex.mx";
 $mail->SMTPAuth = true;
 $mail->Username = "noreply@dacodex.mx"; // Actualizar con tu email
 $mail->Password = "{+f?nr[1X^ag"; // Actualizar con tu contraseña
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+$mail->Port = 465; // Puerto para SSL
 
 if (isset($_POST["nombre"]) && isset($_POST["correo"])) {
     // Sanitize all fields
