@@ -14,13 +14,9 @@ require "./PHPMailer/Exception.php";
 $mail = new PHPMailer(true);
 $mail->CharSet = "UTF-8";
 
-// Activar debugging
-$mail->SMTPDebug = SMTP::DEBUG_SERVER;
-$mail->Debugoutput = "html";
-
 //Server settings
 $mail->isSMTP();
-$mail->Host = "svgt187.serverneubox.com.mx";
+$mail->Host = "mail.dacodex.mx";
 $mail->SMTPAuth = true;
 $mail->Username = "noreply@dacodex.mx"; // Actualizar con tu email
 $mail->Password = "{+f?nr[1X^ag"; // Actualizar con tu contraseña
