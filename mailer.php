@@ -20,12 +20,12 @@ $mail->Debugoutput = "html";
 
 //Server settings
 $mail->isSMTP();
-$mail->Host = "mail.dacodex.mx";
+$mail->Host = "svgt187.serverneubox.com.mx";
 $mail->SMTPAuth = true;
 $mail->Username = "noreply@dacodex.mx"; // Actualizar con tu email
 $mail->Password = "{+f?nr[1X^ag"; // Actualizar con tu contraseña
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-$mail->Port = 465; // Puerto para SSL
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->Port = 587;
 
 if (isset($_POST["nombre"]) && isset($_POST["correo"])) {
     // Sanitize all fields
