@@ -1,27 +1,5 @@
 <?php
-/**
- * PHPMailer para formulario de contacto
- */
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-require "./PHPMailer/PHPMailer.php";
-require "./PHPMailer/SMTP.php";
-require "./PHPMailer/Exception.php";
-
-$mail = new PHPMailer(true);
-$mail->CharSet = "UTF-8";
-
-//Server settings
-$mail->isSMTP();
-$mail->Host = "smtp.zoho.com";
-$mail->SMTPAuth = true;
-$mail->Username = "noreply@dacodex.mx"; // Actualizar con tu email
-$mail->Password = "Dacodex#1"; // Actualizar con tu contraseña
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+header("Content-Type: application/json"); // Para devolver respuestas JSON
 
 if (isset($_POST["nombre"]) && isset($_POST["correo"])) {
     // Sanitize all fields
@@ -34,39 +12,78 @@ if (isset($_POST["nombre"]) && isset($_POST["correo"])) {
     $nombre = str_replace(["\r", "\n"], [" ", " "], $nombre);
     $mensaje = str_replace(["\r", "\n"], [" ", " "], $mensaje);
 
-    try {
-        //Recipients
-        $mail->setFrom("noreply@dacodex.mx", "Dacodex"); // Actualizar con tu dominio y nombre
-        $mail->addAddress("ventas@dacodex.mx"); // Actualizar con el email de destino
-        $mail->addReplyTo($correo, $nombre);
+    // Construir el cuerpo del correo
+    $emailBody = "
+        <strong>Información del contacto:</strong><br>
+        Nombre: {$nombre}<br>
+        Teléfono: {$telefono}<br>
+        Correo electrónico: {$correo}<br>
+        <br>
+        <strong>Mensaje:</strong><br>
+        {$mensaje}<br>
+        <br>
+        Este mensaje fue enviado a través del formulario de contacto de Dacodex.
+    ";
 
-        //Content
-        $mail->isHTML(true);
-        $mail->Subject = "Nuevo mensaje de contacto de " . $nombre;
+    $data = [
+        "personalizations" => [
+            [
+                "to" => [["email" => "ventas@dacodex.mx"]],
+            ],
+        ],
+        "from" => [
+            "email" => "noreply@dacodex.mx",
+            "name" => "Dacodex",
+        ],
+        "reply_to" => [
+            "email" => $correo,
+            "name" => $nombre,
+        ],
+        "subject" => "Nuevo mensaje de contacto de " . $nombre,
+        "content" => [
+            [
+                "type" => "text/html",
+                "value" => $emailBody,
+            ],
+        ],
+    ];
 
-        // Build message body
-        $mail->Body = "
-            <strong>Información del contacto:</strong><br>
-            Nombre: {$nombre}<br>
-            Teléfono: {$telefono}<br>
-            Correo electrónico: {$correo}<br>
-            <br>
-            <strong>Mensaje:</strong><br>
-            {$mensaje}<br>
-            <br>
-            Este mensaje fue enviado a través del formulario de contacto de Dacodex.
-        ";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "https://api.sendgrid.com/v3/mail/send");
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "Authorization: Bearer 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",
+        "Content-Type: application/json",
+    ]);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-        // Plain text version
-        $mail->AltBody = strip_tags(str_replace("<br>", "\n", $mail->Body));
+    $response = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-        $mail->send();
-        echo "¡Gracias por contactarnos! Nos pondremos en contacto contigo a la brevedad.";
-    } catch (Exception $e) {
-        http_response_code(500);
-        echo "Lo sentimos, ocurrió un error al enviar tu mensaje. Por favor, intenta nuevamente.";
+    if (curl_errno($ch)) {
+        echo json_encode([
+            "success" => false,
+            "message" => "Error de CURL: " . curl_error($ch),
+        ]);
+    } elseif ($http_code == 202) {
+        echo json_encode([
+            "success" => true,
+            "message" =>
+                "¡Gracias por contactarnos! Nos pondremos en contacto contigo a la brevedad.",
+        ]);
+    } else {
+        echo json_encode([
+            "success" => false,
+            "message" => "Error al enviar el mensaje. Código: " . $http_code,
+            "debug" => $response,
+        ]);
     }
+
+    curl_close($ch);
 } else {
-    http_response_code(400);
-    echo "Por favor, completa todos los campos requeridos.";
+    echo json_encode([
+        "success" => false,
+        "message" => "Por favor, completa todos los campos requeridos.",
+    ]);
 }

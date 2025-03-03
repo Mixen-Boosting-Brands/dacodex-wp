@@ -39,38 +39,66 @@ window.addEventListener(
                             $("#hold-on-a-sec").addClass("is-loading");
                         },
                         success: function (response) {
+                            // Parsear la respuesta JSON
+                            let jsonResponse;
+                            try {
+                                jsonResponse =
+                                    typeof response === "object"
+                                        ? response
+                                        : JSON.parse(response);
+                            } catch (e) {
+                                jsonResponse = {
+                                    success: false,
+                                    message:
+                                        "Error al procesar la respuesta del servidor",
+                                };
+                            }
+
                             // Remover validación visual
                             $(form).removeClass("was-validated");
 
-                            // Actualizar clase del mensaje
-                            $(formMessages).removeClass("error");
-                            $(formMessages).addClass("success");
+                            // Actualizar clase del mensaje según el éxito o fracaso
+                            $(formMessages).removeClass("error success");
+                            $(formMessages).addClass(
+                                jsonResponse.success ? "success" : "error"
+                            );
 
-                            // Mostrar mensaje de éxito
-                            $(formMessages).html(response);
+                            // Mostrar mensaje
+                            $(formMessages).html(jsonResponse.message);
 
-                            // Limpiar el formulario y eliminar el mensaje después de 5 segundos
+                            // Si fue exitoso, limpiar el formulario
+                            if (jsonResponse.success) {
+                                form.reset();
+                            }
+
+                            // Limpiar el mensaje después de 5 segundos
                             setTimeout(function () {
                                 $(formMessages).html(""); // Limpia el contenido
-                                $(formMessages).removeClass("success"); // Remueve la clase
-                                form.reset(); // Resetea el formulario
+                                $(formMessages).removeClass("success error"); // Remueve las clases
                             }, 5000);
                         },
                         error: function (xhr, status, error) {
                             // Remover indicador de carga
                             $("#hold-on-a-sec").removeClass("is-loading");
 
+                            // Intentar parsear la respuesta de error
+                            let errorMessage;
+                            try {
+                                let jsonResponse = JSON.parse(xhr.responseText);
+                                errorMessage = jsonResponse.message;
+                            } catch (e) {
+                                errorMessage =
+                                    "Ocurrió un error al enviar el mensaje. Por favor, intenta nuevamente.";
+                            }
+
                             // Actualizar clase del mensaje
                             $(formMessages).removeClass("success");
                             $(formMessages).addClass("error");
 
                             // Mostrar mensaje de error
-                            let errorMessage =
-                                xhr.responseText ||
-                                "Ocurrió un error al enviar el mensaje. Por favor, intenta nuevamente.";
                             $(formMessages).html(errorMessage);
 
-                            // Limpiar el mensaje de error y sus clases después de 5 segundos
+                            // Limpiar el mensaje de error después de 5 segundos
                             setTimeout(function () {
                                 $(formMessages).html(""); // Limpia el contenido
                                 $(formMessages).removeClass("error"); // Remueve la clase
