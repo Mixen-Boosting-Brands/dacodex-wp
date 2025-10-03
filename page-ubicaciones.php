@@ -76,238 +76,238 @@ get_header(); ?>
                             data-content-type="gallery"
                             data-images='[
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/1.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/2.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/3.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/4.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/5.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/6.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/7.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/8.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/9.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/10.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/11.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/12.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/13.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/14.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/15.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/16.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/17.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/18.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/19.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/20.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/21.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/22.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/23.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/24.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/25.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/26.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/27.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/28.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/29.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/30.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/31.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/32.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/33.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/34.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/35.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/36.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/37.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/38.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/39.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/40.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/41.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/42.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/43.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/44.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/45.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/46.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/47.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/48.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/49.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/50.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/51.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/52.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/53.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/54.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/55.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/56.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/57.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/58.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/59.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/60.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/61.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/62.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/63.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/64.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/65.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/66.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/67.png",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/68.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/69.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/70.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/71.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/72.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/73.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/74.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/75.jpeg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/76.jpeg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/77.jpeg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/pedro-zuloaga/78.jpeg"
                             ]'
                         >
@@ -316,7 +316,7 @@ get_header(); ?>
                             </div>
                             <img
                                 src="<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/thumbs-galerias/1.png"
                                 alt=""
                                 class="img-fluid"
@@ -373,163 +373,163 @@ get_header(); ?>
                             data-content-type="gallery"
                             data-images='[
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/1.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/2.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/3.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/4.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/5.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/6.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/7.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/8.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/9.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/10.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/11.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/12.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/13.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/14.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/15.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/16.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/17.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/18.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/19.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/20.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/21.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/22.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/23.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/24.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/25.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/26.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/27.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/28.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/29.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/30.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/31.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/32.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/33.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/34.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/35.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/36.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/37.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/38.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/39.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/40.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/41.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/42.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/43.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/44.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/45.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/46.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/47.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/48.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/49.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/50.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/51.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/52.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/uruguay/53.jpg"
                             ]'
                         >
@@ -538,7 +538,7 @@ get_header(); ?>
                             </div>
                             <img
                                 src="<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/thumbs-galerias/2.png"
                                 alt=""
                                 class="img-fluid"
@@ -595,205 +595,205 @@ get_header(); ?>
                             data-content-type="gallery"
                             data-images='[
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/1.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/2.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/3.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/4.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/5.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/6.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/7.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/8.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/9.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/10.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/11.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/12.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/13.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/14.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/15.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/16.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/17.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/18.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/19.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/20.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/21.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/22.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/23.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/24.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/25.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/26.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/27.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/28.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/29.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/30.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/31.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/32.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/33.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/34.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/35.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/36.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/37.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/38.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/39.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/40.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/41.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/42.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/43.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/44.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/45.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/46.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/47.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/48.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/49.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/50.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/51.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/52.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/53.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/54.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/55.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/56.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/57.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/58.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/59.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/60.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/61.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/62.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/63.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/64.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/65.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/66.JPG",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/manzaneros/67.JPG"
                             ]'
                         >
@@ -802,7 +802,7 @@ get_header(); ?>
                             </div>
                             <img
                                 src="<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/thumbs-galerias/3.png"
                                 alt=""
                                 class="img-fluid"
@@ -859,22 +859,22 @@ get_header(); ?>
                             data-content-type="gallery"
                             data-images='[
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/1.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/2.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/3.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/4.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/5.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/galerias/plutarco/6.jpg"
                             ]'
                         >
@@ -883,7 +883,7 @@ get_header(); ?>
                             </div>
                             <img
                                 src="<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/thumbs-galerias/4.png"
                                 alt=""
                                 class="img-fluid"
@@ -940,14 +940,65 @@ get_header(); ?>
                             data-content-type="gallery"
                             data-images='[
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
-                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.png",
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
-                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/2.png",
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/2.jpg",
                                 "<?php echo esc_url(
-                                    get_template_directory_uri()
-                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/3.png"
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/3.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/4.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/5.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/6.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/7.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/8.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/9.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/10.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/11.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/12.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/13.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/14.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/15.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/16.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/17.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/18.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/19.jpg",
+                                "<?php echo esc_url(
+                                    get_template_directory_uri(),
+                                ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/20.jpg"
                             ]'
                         >
                             <div class="overlay">
@@ -955,7 +1006,7 @@ get_header(); ?>
                             </div>
                             <img
                                 src="<?php echo esc_url(
-                                    get_template_directory_uri()
+                                    get_template_directory_uri(),
                                 ); ?>/assets/images/ubicaciones/thumbs-galerias/5.png"
                                 alt=""
                                 class="img-fluid"
@@ -1037,7 +1088,7 @@ get_header(); ?>
                     data-content-type="gallery"
                     data-images='[
                         "<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.png"
                     ]'
                 >
@@ -1052,7 +1103,7 @@ get_header(); ?>
                     </a>
                     <img
                         src="<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/thumbs-aperturas/1.png"
                         alt=""
                         class="img-fluid"
@@ -1071,7 +1122,7 @@ get_header(); ?>
                     data-content-type="gallery"
                     data-images='[
                         "<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.png"
                     ]'
                 >
@@ -1086,7 +1137,7 @@ get_header(); ?>
                     </a>
                     <img
                         src="<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/thumbs-aperturas/2.png"
                         alt=""
                         class="img-fluid"
@@ -1105,7 +1156,7 @@ get_header(); ?>
                     data-content-type="gallery"
                     data-images='[
                         "<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.png"
                     ]'
                 >
@@ -1120,7 +1171,7 @@ get_header(); ?>
                     </a>
                     <img
                         src="<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/thumbs-aperturas/3.png"
                         alt=""
                         class="img-fluid"
@@ -1139,7 +1190,7 @@ get_header(); ?>
                     data-content-type="gallery"
                     data-images='[
                         "<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/galerias/plaza-comercial-union-ganadera/1.png"
                     ]'
                 >
@@ -1154,7 +1205,7 @@ get_header(); ?>
                     </a>
                     <img
                         src="<?php echo esc_url(
-                            get_template_directory_uri()
+                            get_template_directory_uri(),
                         ); ?>/assets/images/ubicaciones/thumbs-aperturas/4.png"
                         alt=""
                         class="img-fluid"
