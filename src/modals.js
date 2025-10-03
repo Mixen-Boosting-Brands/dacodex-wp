@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             .map(
                                 (image) => `
                             <div class="swiper-slide">
-                                <img src="${image}" class="img-fluid" alt="">
+                                <img src="${image}" class="img-fluid" alt="" loading="lazy">
                             </div>
                         `
                             )
